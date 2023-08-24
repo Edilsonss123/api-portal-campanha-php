@@ -14,7 +14,7 @@ This is an example of how to list things you need to use the software and how to
   - Se não possuir o docker instalado siga a documentação do [https://docs.docker.com/get-docker/][Docker]
   - após instalação do docker passe para o póoximo passo.
 
-### Installation
+### Instalação
 
 1. Acessando no terminal faça o clone do repositório
    ```sh
@@ -37,8 +37,14 @@ pois o docker vai fazer a montagem do container necessário para rodar a aplica�
       docker exec -it crud-portal-campanha /bin/bash
    ```
 8. Dentro do container acesse o diretorio ```cd /var/www/html/``` nesse momento vamos criar as tabelas e popular o banco de dados
-    - criar as tabelas execute  ```sh php database/migrations/criando_tabela_campanha_e_usuario_e_arquivos_campanha.php ```
-    - popular as tabelas execute ```sh php database/seed/campanhasSeed.php &&  php database/seed/usuariosSeed.php```
+    - criar as tabelas execute  
+     ```sh
+          sh php database/migrations/criando_tabela_campanha_e_usuario_e_arquivos_campanha.php
+     ```
+    - popular as tabelas execute 
+     ```sh
+          sh php database/seed/campanhasSeed.php &&  php database/seed/usuariosSeed.php
+     ```
 
 9. Para habilitar o roteamento da aplicação vamos utilizar o server do php apontando para o arquivo de configuração 
    ```sh php -S 0.0.0.0:5020 index.php```
