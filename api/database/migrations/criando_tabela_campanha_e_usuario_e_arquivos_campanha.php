@@ -30,6 +30,7 @@ if (!Capsule::schema()->hasTable('arquivo_campanha')) {
     });
 }
 
+
 if (!Capsule::schema()->hasTable('usuario')) {
     Capsule::schema()->create('usuario', function ($table) {
         $table->increments('id');
