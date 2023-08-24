@@ -39,11 +39,11 @@ pois o docker vai fazer a montagem do container necessário para rodar a aplica�
 8. Dentro do container acesse o diretorio ```cd /var/www/html/``` nesse momento vamos criar as tabelas e popular o banco de dados
     - criar as tabelas execute  
      ```sh
-          sh php database/migrations/criando_tabela_campanha_e_usuario_e_arquivos_campanha.php
+          php database/migrations/criando_tabela_campanha_e_usuario_e_arquivos_campanha.php
      ```
     - popular as tabelas execute 
      ```sh
-          sh php database/seed/campanhasSeed.php &&  php database/seed/usuariosSeed.php
+          php database/seed/campanhasSeed.php &&  php database/seed/usuariosSeed.php
      ```
 
 9. Para habilitar o roteamento da aplicação vamos utilizar o server do php apontando para o arquivo de configuração 
