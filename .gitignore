@@ -1,0 +1,5 @@
+api/vendor/
+api/.env
+*.txt
+api/storage/campanha/*
+data/mysql/*
