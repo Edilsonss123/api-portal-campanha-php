@@ -6,7 +6,6 @@ Para colocar uma cópia local em funcionamento, siga estas etapas de exemplo sim
 
 ### Pré-requisitos
 
-This is an example of how to list things you need to use the software and how to install them.
 * docker
   ```sh
   docker --version
