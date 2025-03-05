@@ -17,7 +17,7 @@ Para colocar uma cópia local em funcionamento, siga estas etapas de exemplo sim
 
 1. Acessando no terminal faça o clone do repositório
    ```sh
-   git clone https://github.com/Edilsonss123/api-crud-php
+   git clone https://github.com/Edilsonss123/api-portal-campanha-php
    ```
 2. Renomeie o arquivo api/.env.example para .env
 3. Edite o arquivo .env adicione uma valor para a variável ```JWT_CHAVE``` que será utilizada para geração do token JWT
